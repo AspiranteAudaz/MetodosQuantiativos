@@ -23,10 +23,10 @@ baseMod = base
 applylmgraph = function(xval, yval, xlab="X", ylab="Y")
 {
     modelo2var <- lm(yval ~ xval)
-    fitline <- predict(modelo2var);
+    print(summary(modelo2var))
+    fitline <- predict(modelo2var)
     lin0 = c(min(xval), max(xval))
     lin1 = c(min(fitline), max(fitline));
-    print(lin0)
     plot(x=xval, y=yval, ylab=ylab, xlab=xlab);
     lines(x = lin0, y = lin1, col = "red");
 }
@@ -38,27 +38,19 @@ logap = function(x){log(x, 10)}
 #obs  = c(3, 4, 7, 6, 9, 10, 14, 7, 15, 19)
 #applylmgraph(obs, vals)
 
-applylmgraph(t(as.data.frame(lapply(baseMod$price, logap))), t(as.data.frame(lapply(baseMod$price, logap))))
+applylmgraph(t(as.data.frame(lapply(baseMod$units_sold, logap))), t(as.data.frame(lapply(baseMod$price, logap))), xlab="units_sold", ylab="price")
 #applylmgraph(baseMod$price, baseMod$units_sold)
 #applylmgraph(baseMod$retail_price, baseMod$rating)
 
-
+# Regressao linear simples em todas as combinaçoes
 for(i in (1: ncol(base)))
 {
     for(j in (1: ncol(base)))
-        applylmgraph(base[,i], base[,j])
+        if(i != j)
+            applylmgraph(base[,i], base[,j], xlab=colnames(base)[i], ylab=colnames(base)[j])
 }
+# Conclusao: muito outlier, filtrar
 
-
-modelo2var <- lm(base$units_sold ~ base$price)
-summary(modelo2var)
-
-fitline <- predict(modelo2var)
-
-lin0 = c(min(base$price), max(base$price))
-lin1 = c(min(fitline), max(fitline));
-plot(y=base$price, x=base$units_sold, ylab="Qtd de itens vendidos", xlab="Preço");
-lines(y = lin0, x = lin1, col = "red");
 
 modelo2var <- lm(base$units_sold ~ base$price + base$rating)
 summary(modelo2var)
