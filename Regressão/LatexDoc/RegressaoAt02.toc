@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {subsection}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {subsection}{\numberline {1.2}Prepara\IeC {\c c}\IeC {\~a}o do ambiente}{3}
+\contentsline {section}{\numberline {2}An\IeC {\'a}lise Inicial}{4}
+\contentsline {subsection}{\numberline {2.1}Correla\IeC {\c c}\IeC {\~o}es}{4}
+\contentsline {subsection}{\numberline {2.2}Tratamento de outliers}{5}
+\contentsline {section}{\numberline {3}An\IeC {\'a}lise de Regress\IeC {\~a}o}{7}
+\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias}{9}
