@@ -5,4 +5,4 @@
 \contentsline {subsection}{\numberline {2.1}Correla\IeC {\c c}\IeC {\~o}es}{4}
 \contentsline {subsection}{\numberline {2.2}Tratamento de outliers}{5}
 \contentsline {section}{\numberline {3}An\IeC {\'a}lise de Regress\IeC {\~a}o}{7}
-\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias}{9}
+\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias}{11}

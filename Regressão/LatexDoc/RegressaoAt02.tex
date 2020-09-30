@@ -145,7 +145,7 @@ A primeira análise foi feita com uma matriz de correlação das colunas, a baix
 \FloatBarrier 
 
 
-Observando a matriz, nota-se uma correlação com valor alto além das identidades, que é o de Rating C com Units Sold, o que era de se esperar. Dessa matriz foram elimiandos os valores com correlação menor que 0.2 já que não há linearidade aparente significante.
+Observando a matriz, nota-se uma correlação com valor alto além das identidades, que é o de Rating C com Units Sold, o que era de se esperar. Dessa matriz foram eliminados os valores com correlação menor que 0.2 já que não há linearidade aparente significante.
 
 \subsection{Tratamento de outliers}
 
@@ -234,7 +234,6 @@ A figura a seguir (7) mostra o gŕafico de dispersão entre as variáveis Rating
     \includegraphics[scale=0.25, center]{./imgs/lm_us_rc_img.png}
     \caption*{7. Regressão Rating C e Units Sold}
     \label{fig:1}
-    \hspace{1.0cm}
   \end{subfigure}
   \begin{subfigure}[b]{0.5\textwidth}
     \includegraphics[scale=0.2, center]{./imgs/lm_us_rc_sum.png}
@@ -253,7 +252,6 @@ O mesmo procedimento de regressão linear foi executado , porém retirando os ou
     \includegraphics[scale=0.25, center]{./imgs/lm_us_rc_img_out.png}
     \caption*{9. Sem outliers}
     \label{fig:1}
-    \hspace{1.0cm}
   \end{subfigure}
   \begin{subfigure}[b]{0.5\textwidth}
     \includegraphics[scale=0.25, center]{./imgs/lm_us_rc_img_out_sum.png}
@@ -264,6 +262,104 @@ O mesmo procedimento de regressão linear foi executado , porém retirando os ou
 \FloatBarrier
 
 Veja que na segunda imagem (9) que sem aqueles valores o modelo centra-se no nas vendas feitas na linha de 1000 Units Sold que é bem larga e é desbalanceada de uma reta totalmente horizontal pelo grosso de valores na parte inferior. O fato da reta não passar mais pelo centro dos valores inferiores indica um desbalanceamente por falta dos valores superiores que ficavam mais a frente no eixo da abscissa.
+
+\FloatBarrier
+\begin{figure}[h]
+	\hspace{1cm}
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.48, center]{./imgs/lm_mc_rc.png}
+    \caption*{11. Merch C e Rating C}
+    \label{fig:1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.44, center]{./imgs/lm_mc_rc_s.png}
+    \caption*{12. Sumário}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
+
+\FloatBarrier
+\begin{figure}[h]
+	\hspace{1cm}
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.48, center]{./imgs/lm_mc_rc_o.png}
+    \caption*{13. Sem outliers}
+    \label{fig:1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.44, center]{./imgs/lm_mc_rc_o_s.png}
+    \caption*{14. Sumário}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
+
+\FloatBarrier
+\begin{figure}[h]
+	\hspace{1cm}
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.48, center]{./imgs/lm_rp_p.png}
+    \caption*{15. Retail Price e Price}
+    \label{fig:1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.44, center]{./imgs/lm_rp_p_s.png}
+    \caption*{16. Sumário}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
+
+\FloatBarrier
+\begin{figure}[h]
+	\hspace{1cm}
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.48, center]{./imgs/lm_rp_p_o.png}
+    \caption*{17. Sem outliers}
+    \label{fig:1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.44, center]{./imgs/lm_rp_p_o_s.png}
+    \caption*{18. Sumário}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
+
+
+\FloatBarrier
+\begin{figure}[h]
+	\hspace{1cm}
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.48, center]{./imgs/lm_mc_us.png}
+    \caption*{19. Merch C e Units Sold}
+    \label{fig:1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.44, center]{./imgs/lm_mc_us_s.png}
+    \caption*{20. Sumário}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
+
+\FloatBarrier
+\begin{figure}[h]
+	\hspace{1cm}
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.48, center]{./imgs/lm_mc_us_o.png}
+    \caption*{21. Sem outliers}
+    \label{fig:1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.44, center]{./imgs/lm_mc_us_o_s.png}
+    \caption*{22. Sumário}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
+
 
 
 \begin{comment}
