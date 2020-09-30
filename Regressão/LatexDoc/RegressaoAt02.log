@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.8.21)  30 SEP 2020 03:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.8.21)  30 SEP 2020 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,35 +1013,35 @@ Overfull \hbox (4.98517pt too wide) in paragraph at lines 251--263
 <./imgs/lm_mc_rc.png, id=64, 459.7175pt x 419.5675pt>
 File: ./imgs/lm_mc_rc.png Graphic file (type png)
 <use ./imgs/lm_mc_rc.png>
-Package pdftex.def Info: ./imgs/lm_mc_rc.png  used on input line 271.
+Package pdftex.def Info: ./imgs/lm_mc_rc.png  used on input line 273.
 (pdftex.def)             Requested size: 220.66188pt x 201.3901pt.
 <./imgs/lm_mc_rc_s.png, id=65, 496.85625pt x 299.1175pt>
 File: ./imgs/lm_mc_rc_s.png Graphic file (type png)
 <use ./imgs/lm_mc_rc_s.png>
-Package pdftex.def Info: ./imgs/lm_mc_rc_s.png  used on input line 276.
+Package pdftex.def Info: ./imgs/lm_mc_rc_s.png  used on input line 278.
 (pdftex.def)             Requested size: 218.61742pt x 131.61209pt.
 <./imgs/lm_mc_rc_o.png, id=66, 436.63126pt x 422.57875pt>
 File: ./imgs/lm_mc_rc_o.png Graphic file (type png)
 <use ./imgs/lm_mc_rc_o.png>
-Package pdftex.def Info: ./imgs/lm_mc_rc_o.png  used on input line 286.
+Package pdftex.def Info: ./imgs/lm_mc_rc_o.png  used on input line 288.
 (pdftex.def)             Requested size: 209.58061pt x 202.8355pt.
 <./imgs/lm_mc_rc_o_s.png, id=67, 496.85625pt x 297.11pt>
 File: ./imgs/lm_mc_rc_o_s.png Graphic file (type png)
 <use ./imgs/lm_mc_rc_o_s.png>
-Package pdftex.def Info: ./imgs/lm_mc_rc_o_s.png  used on input line 291.
+Package pdftex.def Info: ./imgs/lm_mc_rc_o_s.png  used on input line 293.
 (pdftex.def)             Requested size: 198.73897pt x 118.84189pt.
 <./imgs/lm_rp_p.png, id=68, 457.71pt x 415.5525pt>
 File: ./imgs/lm_rp_p.png Graphic file (type png)
 <use ./imgs/lm_rp_p.png>
-Package pdftex.def Info: ./imgs/lm_rp_p.png  used on input line 302.
+Package pdftex.def Info: ./imgs/lm_rp_p.png  used on input line 304.
 (pdftex.def)             Requested size: 219.6983pt x 199.46294pt.
 <./imgs/lm_rp_p_s.png, id=69, 495.8525pt x 297.11pt>
 File: ./imgs/lm_rp_p_s.png Graphic file (type png)
 <use ./imgs/lm_rp_p_s.png>
-Package pdftex.def Info: ./imgs/lm_rp_p_s.png  used on input line 307.
+Package pdftex.def Info: ./imgs/lm_rp_p_s.png  used on input line 309.
 (pdftex.def)             Requested size: 247.92564pt x 148.55463pt.
 
-Overfull \hbox (24.56807pt too wide) in paragraph at lines 300--311
+Overfull \hbox (24.56807pt too wide) in paragraph at lines 302--313
 []  [] [] 
  []
 
@@ -1053,27 +1053,27 @@ s/lm_mc_rc_o_s.png>]
 <./imgs/lm_rp_p_o.png, id=77, 438.63875pt x 420.57124pt>
 File: ./imgs/lm_rp_p_o.png Graphic file (type png)
 <use ./imgs/lm_rp_p_o.png>
-Package pdftex.def Info: ./imgs/lm_rp_p_o.png  used on input line 318.
+Package pdftex.def Info: ./imgs/lm_rp_p_o.png  used on input line 320.
 (pdftex.def)             Requested size: 219.31883pt x 210.28511pt.
 <./imgs/lm_rp_p_o_s.png, id=78, 498.86375pt x 295.1025pt>
 File: ./imgs/lm_rp_p_o_s.png Graphic file (type png)
 <use ./imgs/lm_rp_p_o_s.png>
-Package pdftex.def Info: ./imgs/lm_rp_p_o_s.png  used on input line 324.
+Package pdftex.def Info: ./imgs/lm_rp_p_o_s.png  used on input line 326.
 (pdftex.def)             Requested size: 219.50073pt x 129.84549pt.
 
-Overfull \hbox (7.8302pt too wide) in paragraph at lines 316--328
+Overfull \hbox (7.8302pt too wide) in paragraph at lines 318--330
 []  []   [] 
  []
 
 <./imgs/lm_mc_us.png, id=79, 474.77374pt x 422.57875pt>
 File: ./imgs/lm_mc_us.png Graphic file (type png)
 <use ./imgs/lm_mc_us.png>
-Package pdftex.def Info: ./imgs/lm_mc_us.png  used on input line 334.
+Package pdftex.def Info: ./imgs/lm_mc_us.png  used on input line 338.
 (pdftex.def)             Requested size: 227.88881pt x 202.8355pt.
 <./imgs/lm_mc_us_s.png, id=80, 503.8825pt x 301.125pt>
 File: ./imgs/lm_mc_us_s.png Graphic file (type png)
 <use ./imgs/lm_mc_us_s.png>
-Package pdftex.def Info: ./imgs/lm_mc_us_s.png  used on input line 339.
+Package pdftex.def Info: ./imgs/lm_mc_us_s.png  used on input line 343.
 (pdftex.def)             Requested size: 221.70898pt x 132.49539pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1083,12 +1083,12 @@ lm_rp_p_o_s.png>]
 <./imgs/lm_mc_us_o.png, id=88, 447.6725pt x 422.57875pt>
 File: ./imgs/lm_mc_us_o.png Graphic file (type png)
 <use ./imgs/lm_mc_us_o.png>
-Package pdftex.def Info: ./imgs/lm_mc_us_o.png  used on input line 349.
+Package pdftex.def Info: ./imgs/lm_mc_us_o.png  used on input line 353.
 (pdftex.def)             Requested size: 214.88036pt x 202.8355pt.
 <./imgs/lm_mc_us_o_s.png, id=89, 501.875pt x 300.12125pt>
 File: ./imgs/lm_mc_us_o_s.png Graphic file (type png)
 <use ./imgs/lm_mc_us_o_s.png>
-Package pdftex.def Info: ./imgs/lm_mc_us_o_s.png  used on input line 354.
+Package pdftex.def Info: ./imgs/lm_mc_us_o_s.png  used on input line 358.
 (pdftex.def)             Requested size: 220.82567pt x 132.05376pt.
  [11 <./imgs/lm_mc_us.png> <./imgs/lm_mc_us_s.png> <./imgs/lm_mc_us_o.png> <./i
 mgs/lm_mc_us_o_s.png>] (./RegressaoAt02.aux)
@@ -1097,10 +1097,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6561 strings out of 494880
- 97753 string characters out of 6179601
+ 6562 strings out of 494880
+ 97772 string characters out of 6179601
  174915 words of memory out of 5000000
- 9721 multiletter control sequences out of 15000+600000
+ 9722 multiletter control sequences out of 15000+600000
  13050 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  53i,11n,92p,605b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1111,7 +1111,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on RegressaoAt02.pdf (11 pages, 1849082 bytes).
+Output written on RegressaoAt02.pdf (11 pages, 1850508 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

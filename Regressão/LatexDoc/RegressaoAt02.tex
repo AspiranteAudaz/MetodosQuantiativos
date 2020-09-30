@@ -265,6 +265,8 @@ O mesmo procedimento de regressão linear foi executado , porém retirando os ou
 
 Veja que na segunda imagem (9) que sem aqueles valores o modelo centra-se no nas vendas feitas na linha de 1000 Units Sold que é bem larga e é desbalanceada de uma reta totalmente horizontal pelo grosso de valores na parte inferior. O fato da reta não passar mais pelo centro dos valores inferiores indica um desbalanceamente por falta dos valores superiores que ficavam mais a frente no eixo da abscissa.
 
+Sobre os três pares do mapa de correlação foram feitas regressões, tanto antes quanto depois da remoção dos outliers, resultando em valores não satisfatórios. Houve aumento do valores de $R^{2}$, mas mesmo assim permaneceram abaixo de 0.2, porem o valor dos coeficientes lineares encotrados nos revelam algumas informações interessantes.
+
 \FloatBarrier
 \begin{figure}[h]
   \begin{subfigure}[b]{0.4\textwidth}
@@ -326,7 +328,9 @@ Veja que na segunda imagem (9) que sem aqueles valores o modelo centra-se no nas
     \label{fig:2}
   \end{subfigure}
 \end{figure}
-\FloatBarrier 
+\FloatBarrier
+
+Para essa regressão o valor original da tangente era de 2.3 que é maior do que 1, sendo assim os preços de varejo, ou seja os preços do consumidor final, tendem a subir quanto maiores forem os preços do item. Agora, na segunda análise esse valor cai ao se retirarem os preços altos de vende e revenda, com uma tangente de 0.63, quanto mais aumenta o preço do item, menos o consumdir final tende a pagar a mais por ele.
 
 \FloatBarrier
 \begin{figure}[h]
@@ -370,5 +374,9 @@ Veja que na segunda imagem (9) que sem aqueles valores o modelo centra-se no nas
 \section{Referências}  
        
    	Sales of summer clothes in E-commerce Wish. \textbf{Kaggle}, 2020. Disponível em: $<$https://www.kaggle.\/\/com/jmmvutu/summer-products-and-sales-in-ecommerce-wish$>$.\\Acesso em: 3 de set. de 2020.
+   	
+   	HAIR, Joseph F. et al. Análise multivariada de dados. Bookman editora, 2009.
+   	
+	BUSSAB, Wilton O.; MORETTIN, Pedro A. Estatística Básica, 5ª Edição, São Paulo. Editora Saraiva, 2006.
 
 \end{document}
