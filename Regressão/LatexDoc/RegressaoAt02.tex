@@ -362,14 +362,32 @@ Para essa regressão o valor original da tangente era de 2.3 que é maior do que
 \end{figure}
 \FloatBarrier 
 
-\begin{comment}
+Foi feita uma regressão multipla com para Units Sold, que é uma variável de muito interesse, com todas as outras colunas exceto a Rating C que tem uma correlação muito alta. Os resultados também foram insatisfatórios, sem poder explicativo algum.
+
 \FloatBarrier
 \begin{figure}[h]
-\includegraphics[scale=0.25, center]{./imgs/lm_us_rc_img.png}
-\caption*{Figura 3: Regressão Rating C e Units Sold}
+\includegraphics[scale=0.5, center]{./imgs/lmm_us.png}
+\caption*{Figura 23: Regressão Multipla Units Sold}
 \end{figure}
 \FloatBarrier 
-\end{comment}
+
+Por fim foram feitos o plot dos resíduos da regressão com outliers de Units Sold e Rating C, pelo Rating C e um histograma. A variância dos resíduos não é constante e aumenta tanto quanto aumenta Rating C, o que indica um modelo inadequado. O histograma aparente ter uma distribuição normal dos resíduos. Um teste de Shapiro-Wilk revela os resultados de 0.55379 e o $p-value < 2.2e-16$, revelando que o modelo não é muito normal, assim rejeitamos a hipótse de normalidade.
+
+\FloatBarrier
+\begin{figure}[h]
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.5, center]{./imgs/rs_rc_plot.png}
+    \caption*{24. Resíduos e Rating C}
+    \label{fig:1}
+  \end{subfigure}
+  \hspace{1.5cm}
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[scale=0.5, center]{./imgs/norm_rs_rc.png}
+    \caption*{25. Histograma dos resíduos}
+    \label{fig:2}
+  \end{subfigure}
+\end{figure}
+\FloatBarrier 
 
 \section{Referências}  
        
@@ -378,5 +396,11 @@ Para essa regressão o valor original da tangente era de 2.3 que é maior do que
    	HAIR, Joseph F. et al. Análise multivariada de dados. Bookman editora, 2009.
    	
 	BUSSAB, Wilton O.; MORETTIN, Pedro A. Estatística Básica, 5ª Edição, São Paulo. Editora Saraiva, 2006.
+	
+	Sales of summer clothes in E-commerce Wish. \textbf{Kaggle}, 2020. Disponível em: $<$https://www.kaggle.\/\/com/jmmvutu/summer-products-and-sales-in-ecommerce-wish$>$.\\Acesso em: 3 de set. de 2020.
+	
+	Teste de Shapiro-Wilk. \textbf{Portal Action}. Disponível em: $<$    
+    http://www.portalactio\\n.com.br/inferencia/64-teste-de-shapiro-wilk$/>$. Acesso em: 3 de set. de 2020.
+
 
 \end{document}
